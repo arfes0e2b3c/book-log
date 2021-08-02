@@ -1,0 +1,13 @@
+INSERT INTO reviews(
+  book_name,
+  author,
+  proceeding,
+  score,
+  impression
+)VALUES(
+  'man',
+  'ore',
+  'kekkou',
+  '5',
+  'mettyaiikanji'
+);

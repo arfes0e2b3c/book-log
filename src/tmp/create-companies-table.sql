@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS reviews;
+
+CREATE TABLE reviews (
+  id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  book_name VARCHAR(31),
+  author VARCHAR(31),
+  proceeding VARCHAR(4),
+  score INTEGER(1),
+  impression VARCHAR(1000),
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+) CHARACTER SET = utf8mb4;
